@@ -186,7 +186,22 @@ img {
   flex-direction: column;
   background: #FFD90F;
   color: #ffffff;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #000000;
+}
+@media (min-width: 900px) {
+  .nav-content {
+    flex-direction: row;
+    justify-content: space-between;
+    background: #ffffff;
+  }
+}
+@media (min-width: 1200px) {
+  .nav-content {
+    width: 100%;
+    justify-content: space-around;
+    background-color: #3AC8FF;
+    border-bottom: none;
+  }
 }
 .nav-content h1 {
   display: flex;
@@ -196,6 +211,12 @@ img {
   margin-top: 20px;
   color: #ffffff;
 }
+@media (min-width: 900px) {
+  .nav-content h1 {
+    margin-left: 20px;
+    color: #FFD90F;
+  }
+}
 .nav-content nav {
   display: flex;
   justify-content: center;
@@ -203,6 +224,11 @@ img {
   flex-direction: column;
   margin-top: 30px;
   margin-bottom: 30px;
+}
+@media (min-width: 900px) {
+  .nav-content nav {
+    flex-direction: row;
+  }
 }
 .nav-content nav a {
   display: flex;
@@ -212,6 +238,18 @@ img {
   color: #FF7C8E;
   text-transform: uppercase;
 }
+@media (min-width: 900px) {
+  .nav-content nav a {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: #FF7C8E;
+  }
+}
+@media (min-width: 1200px) {
+  .nav-content nav a {
+    color: #000000;
+  }
+}
 footer {
   width: 100%;
   display: flex;
@@ -219,6 +257,11 @@ footer {
   align-items: center;
   background-color: #FF7C8E;
   border-top: 1px solid #000000;
+}
+@media (min-width: 900px) {
+  footer {
+    background-color: #FFD90F;
+  }
 }
 footer p {
   text-align: center;
@@ -236,6 +279,16 @@ footer p {
 .main-content .arm {
   width: 100%;
 }
+@media (min-width: 501px) {
+  .main-content .arm {
+    width: 75%;
+  }
+}
+@media (min-width: 900px) {
+  .main-content .arm {
+    width: 50%;
+  }
+}
 .main-content .features {
   display: flex;
   justify-content: center;
@@ -243,6 +296,11 @@ footer p {
   flex-direction: column;
   text-align: center;
   border-top: 1px solid #000000;
+}
+@media (min-width: 501px) {
+  .main-content .features {
+    border: none;
+  }
 }
 .main-content .features h1 {
   margin-top: 30px;
