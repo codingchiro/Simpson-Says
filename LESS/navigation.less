@@ -1,0 +1,45 @@
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: black;
+    color: @font-color;
+    border-bottom: 1px solid @nav-border;
+
+    h1 {
+        font-size: 4rem;
+        margin-top: 20px;
+        margin-left: 20px;
+        color: @simpsonyellow;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        justify-content: space-between;
+
+        a {
+            color: @white;
+        }
+
+        // @media @mobile {
+        //     width: 100%;
+        //     flex-direction: column;
+        // }
+    }
+
+    nav a {
+        display: flex;
+        .nav-style;
+        margin-bottom: 10px;
+
+
+        // @media @phone {
+        //     display: flex;
+        //     width: 100%;
+        //     margin-right: 5px;
+        //     font-weight: bold;
+        // }
+    }
+}

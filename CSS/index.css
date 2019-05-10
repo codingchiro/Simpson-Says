@@ -1,3 +1,8 @@
+.nav-style {
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 47px;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -135,6 +140,8 @@ html {
 html,
 body {
   font-family: 'Roboto', sans-serif;
+  background-color: #3AC8FF;
+  color: #ffffff;
 }
 h1,
 h2,
@@ -152,7 +159,7 @@ h2 {
   font-size: 3.2rem;
   padding-bottom: 10px;
 }
-h4 {
+h3 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
@@ -169,6 +176,36 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background: black;
+  color: #ffffff;
+  border-bottom: 1px solid #FFF738;
+}
+.nav-content h1 {
+  font-size: 4rem;
+  margin-top: 20px;
+  margin-left: 20px;
+  color: #FFD90F;
+}
+.nav-content nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.nav-content nav a {
+  color: #ffffff;
+}
+.nav-content nav a {
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: none;
+  margin-right: 47px;
+  margin-bottom: 10px;
 }
 footer {
   width: 100%;
