@@ -179,6 +179,7 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  background-image: url("Images\clouds.jpg");
 }
 .nav-content {
   display: flex;
