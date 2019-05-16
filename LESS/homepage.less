@@ -9,7 +9,6 @@
         .center();
         flex-direction: column;
         text-align: center;
-        .border-style;
 
         @media @tablet-portrait-up {
             border: none;
@@ -41,6 +40,19 @@
 
 }
 
+@media @desktop-up {
+
+
+    .circle-flex-display {
+        display: flex;
+        flex-direction: row;
+        justify-items: end;
+
+        .circle-top {
+            margin-right: 400px;
+        }
+    }
+}
 
 .circular-sb {
     width: 250px;
@@ -129,6 +141,7 @@
 .buttonContainer {
     position: relative;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 /* Make the image responsive */
@@ -188,8 +201,4 @@
     // font-family: arial;
     position: relative;
     color: @black;
-}
-
-.buttonContainer {
-    margin-bottom: 20px;
 }
