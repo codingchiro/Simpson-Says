@@ -299,7 +299,6 @@ footer p {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  border-top: 1px solid #000000;
 }
 @media (min-width: 501px) {
   .main-content .features {
@@ -322,6 +321,16 @@ footer p {
 }
 .main-content .features .login {
   margin: 30px 0px;
+}
+@media (min-width: 1200px) {
+  .circle-flex-display {
+    display: flex;
+    flex-direction: row;
+    justify-items: end;
+  }
+  .circle-flex-display .circle-top {
+    margin-right: 400px;
+  }
 }
 .circular-sb {
   width: 250px;
@@ -397,6 +406,7 @@ footer p {
 .buttonContainer {
   position: relative;
   width: 100%;
+  margin-bottom: 20px;
 }
 /* Make the image responsive */
 .container img {
@@ -442,9 +452,6 @@ footer p {
   font-weight: 900;
   position: relative;
   color: #000000;
-}
-.buttonContainer {
-  margin-bottom: 20px;
 }
 .upper {
   display: flex;
